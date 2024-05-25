@@ -46,7 +46,9 @@
 
 <link rel="stylesheet" href="/css/main.css" />
 
-<meta name="generator" content="Hexo 7.2.0"></head>
+<meta name="generator" content="Hexo 7.2.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css" class="aplayer-style-marker">
+<script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-script-marker"></script>
+</head>
 <body>
     <div id="layout">
         <transition name="fade">
@@ -199,6 +201,26 @@
         <div class="content" v-pre>
             
             <h1 id="測試"><a href="#測試" class="headerlink" title="測試"></a>測試</h1>
+        <div id="aplayer-uFgWCOtt" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+            <pre class="aplayer-lrc-content"></pre>
+        </div>
+        <script>
+          var ap = new APlayer({
+            element: document.getElementById("aplayer-uFgWCOtt"),
+            narrow: false,
+            autoplay: false,
+            showlrc: false,
+            music: {
+              title: "Usagi Flap",
+              author: "Nor",
+              url: "Usagi_flap.mp3",
+              pic: "/2024/05/25/Start/Miyu.jpg",
+              lrc: ""
+            }
+          });
+          window.aplayers || (window.aplayers = []);
+          window.aplayers.push(ap);
+        </script>
             
         </div>
     </div>
@@ -212,7 +234,7 @@
         
         <span class="tag">
             
-            <a href="/tags/Hexo/" style="color: #00a596">Hexo</a>
+            <a href="/tags/Hexo/" style="color: #ff7d73">Hexo</a>
         </span>
         
     </div>
@@ -316,5 +338,5 @@
     </div>
     <script src="/js/main.js"></script>
     
-</body>
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"live2d-widget-model-wanko"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":true},"react":{"opacity":0.7}});</script></body>
 </html>

@@ -823,7 +823,6 @@ blockquote {
 body {
     /* background: #202020; */
     background-image: url('../images/home-backgroundjpg.jpg');
-    background-position: 0% -50%;
     background-size: cover;
     color: #eeeeee;
     font: 500 14px Lexend, "Noto Sans SC", sans-serif;

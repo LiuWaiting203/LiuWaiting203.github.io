@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <title>【自學歷程】用 Hexo 架設個人網誌 | Ame 雨の日</title>
     <meta name="author" content="Ame" />
-    <meta name="description" content="Front-end Developer <br> Web Designer <br> UI/UX Designer" />
+    <meta name="description" content="Front-end Developer, Web Designer, UI/UX Designer" />
     <meta name="keywords" content="前端,後端,全端,網頁,技術,網頁開發,前端開發,後端開發,JavaScript,HTML,CSS,SCSS,Vue,React,Express,mySQL,MongoDB" />
     <meta
         name="viewport"
@@ -43,6 +43,8 @@
 
 
 
+
+<script src="https://s4.zstatic.net/ajax/libs/twikoo/1.6.31/twikoo.all.min.js"></script>
 
 
 
@@ -193,6 +195,10 @@
     
     
     
+    <div id="comment">
+        <div id="twikoo-container"></div>
+    </div>
+    
     
 </div>
 
@@ -228,6 +234,16 @@
     
 
 
+
+<script>
+    twikoo.init({
+        el: "#twikoo-container",
+        envId: "",
+        region: "",
+        path: location.pathname,
+        lang: "",
+    })
+</script>
 
 
     

@@ -3,7 +3,7 @@
 <html lang="zh-tw">
 <head>
     <meta charset="utf-8" />
-    <title>Archives | Ame 雨の日</title>
+    <title>about | Ame 雨の日</title>
     <meta name="author" content="Ame" />
     <meta name="description" content="Front-end Developer, Web Designer, UI/UX Designer" />
     <meta name="keywords" content="前端,後端,全端,網頁,技術,網頁開發,前端開發,後端開發,JavaScript,HTML,CSS,SCSS,Vue,React,Express,mySQL,MongoDB" />
@@ -39,6 +39,12 @@
 <script src="/js/lib/preview.js"></script>
 
 
+
+
+
+
+
+<script src="https://s4.zstatic.net/ajax/libs/twikoo/1.6.31/twikoo.all.min.js"></script>
 
 
 
@@ -150,41 +156,89 @@
 </transition>
 
         <div id="main" :class="loading ? 'into-enter-from': 'into-enter-active'">
-            
-<div id="archives">
-    
-    <div id="timeline-wrap" ref="timeline">
+            <div class="article">
+    <div>
+        <h1>about</h1>
+    </div>
+    <div class="info">
+        <span class="date">
+            <span class="icon">
+                <i class="fa-solid fa-calendar fa-fw"></i>
+            </span>
+            2024/5/30
+        </span>
         
-        <div class="timeline" data-title="【自學歷程】用hexo架設個人網誌">
-            <div class="timeline-tail"></div>
-            <div class="timeline-content">
-                <div class="item-time">2024/5/25</div>
-                <a href="/2024/05/25/Start/">
-                    <h3>【自學歷程】用 Hexo 架設個人網誌</h3>
-                </a>
-                <div class="info">
-                    
-                    
-                    <span class="tags">
-                        <span class="icon">
-                            <i class="fa-solid fa-tags fa-fw"></i>
-                        </span>
-                        
-                        
-                        <span class="tag">
-                            
-                            <a href="/tags/Hexo/" style="color: #ff7d73">
-                                Hexo
-                            </a>
-                        </span>
-                        
-                    </span>
-                    
-                </div>
-            </div>
-        </div>
         
     </div>
+    
+    <div class="content" v-pre>
+        <h1>歡迎來到我的天地～！👋</h1>
+<p>我是一名轉職的前端工程師，熱衷於學習新技術和新工具<br>
+每天不斷精進自已寫Code的能力外，也會幫助其他人一起學習～</p>
+<hr>
+<blockquote>
+<p>專門介紹前端技術，以及一些學習經歷<br>
+會將學習成果和過程，相關知識等放在這裡～</p>
+</blockquote>
+<h1>🧠 主要語言</h1>
+<ul>
+<li>JavaScript</li>
+<li>SCSS</li>
+<li>Node.js</li>
+</ul>
+<h1>⚙️ 目前使用的框架</h1>
+<ul>
+<li>Vue</li>
+<li>React</li>
+<li>Express</li>
+</ul>
+<h1>🔧 工具</h1>
+<ul>
+<li>Vite</li>
+<li>Vueuse</li>
+<li>Vuetify</li>
+<li>Nuxt</li>
+</ul>
+<hr>
+<h1>⛓️ 其他連結</h1>
+<table>
+<thead>
+<tr>
+<th>網站</th>
+<th>連結</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Github</td>
+<td><a target="_blank" rel="noopener" href="https://github.com/LiuWaiting203">Ame</a></td>
+</tr>
+<tr>
+<td>Discord</td>
+<td><a target="_blank" rel="noopener" href="https://discordapp.com/users/65818178810294272">Ghost</a></td>
+</tr>
+<tr>
+<td>Email</td>
+<td><a href="mailto:pepega147369@gmail.com">MailMe!</a></td>
+</tr>
+</tbody>
+</table>
+<h1>再次歡迎你光顧我的 Blog ~!</h1>
+<p>來看惠惠跳舞 (?)<br>
+<img src="https://media1.tenor.com/m/z6DsdmHQaxoAAAAC/fgo-megumin.gif" alt="Megumin Dance"></p>
+
+    </div>
+    
+    
+    
+    
+    
+    
+    <div id="comment">
+        <div id="twikoo-container"></div>
+    </div>
+    
+    
 </div>
 
             <footer id="footer">
@@ -215,6 +269,22 @@
         
     </div>
     <script src="/js/main.js"></script>
+    
+    
+
+
+
+<script>
+    twikoo.init({
+        el: "#twikoo-container",
+        envId: "",
+        region: "",
+        path: location.pathname,
+        lang: "",
+    })
+</script>
+
+
     
 <script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"live2d-widget-model-wanko"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":true},"react":{"opacity":0.7}});</script></body>
 </html>

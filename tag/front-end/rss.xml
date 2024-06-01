@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>Ame • Posts by &#34;front-end&#34; tag</title>
+        <link>http://example.com</link>
+        <description>Front-end Developer, Web Designer, UI/UX Designer</description>
+        <language>en,zh-tw,default</language>
+        <pubDate>Sun, 02 Jun 2024 01:39:28 +0800</pubDate>
+        <lastBuildDate>Sun, 02 Jun 2024 01:39:28 +0800</lastBuildDate>
+        <category>Dairy</category>
+        <category>Front-end</category>
+        <category>Back-end</category>
+        <category>Hexo</category>
+        <item>
+            <guid isPermalink="true">http://example.com/2024/06/02/front-end/front-end/</guid>
+            <title>front end</title>
+            <link>http://example.com/2024/06/02/front-end/front-end/</link>
+            <category>Front-end</category>
+            <pubDate>Sun, 02 Jun 2024 01:39:28 +0800</pubDate>
+            <description><![CDATA[ &lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;\assets\css\APlayer.min.css&#34;&gt;&lt;script src=&#34;\assets\js\APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt; ]]></description>
+        </item>
+    </channel>
+</rss>

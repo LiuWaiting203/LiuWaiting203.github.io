@@ -1,0 +1,48 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Ame",
+    "description": "Front-end Developer, Web Designer, UI/UX Designer",
+    "home_page_url": "http://example.com",
+    "items": [
+        {
+            "id": "http://example.com/2024/06/02/Life/life/",
+            "url": "http://example.com/2024/06/02/Life/life/",
+            "title": "生活日記",
+            "date_published": "2024-06-01T17:54:26.000Z",
+            "content_html": "<link rel=\"stylesheet\" class=\"aplayer-secondary-style-marker\" href=\"\\assets\\css\\APlayer.min.css\"><script src=\"\\assets\\js\\APlayer.min.js\" class=\"aplayer-secondary-script-marker\"></script>",
+            "tags": [
+                "Dairy"
+            ]
+        },
+        {
+            "id": "http://example.com/2024/06/02/back-end/back-end/",
+            "url": "http://example.com/2024/06/02/back-end/back-end/",
+            "title": "back end",
+            "date_published": "2024-06-01T17:40:27.000Z",
+            "content_html": "<link rel=\"stylesheet\" class=\"aplayer-secondary-style-marker\" href=\"\\assets\\css\\APlayer.min.css\"><script src=\"\\assets\\js\\APlayer.min.js\" class=\"aplayer-secondary-script-marker\"></script>",
+            "tags": [
+                "Back-end"
+            ]
+        },
+        {
+            "id": "http://example.com/2024/06/02/front-end/front-end/",
+            "url": "http://example.com/2024/06/02/front-end/front-end/",
+            "title": "front end",
+            "date_published": "2024-06-01T17:39:28.000Z",
+            "content_html": "<link rel=\"stylesheet\" class=\"aplayer-secondary-style-marker\" href=\"\\assets\\css\\APlayer.min.css\"><script src=\"\\assets\\js\\APlayer.min.js\" class=\"aplayer-secondary-script-marker\"></script>",
+            "tags": [
+                "Front-end"
+            ]
+        },
+        {
+            "id": "http://example.com/2024/05/25/Misc/Hexo/Start/",
+            "url": "http://example.com/2024/05/25/Misc/Hexo/Start/",
+            "title": "【自學歷程】用 Hexo + Github Pages 架設個人網誌",
+            "date_published": "2024-05-25T07:35:33.000Z",
+            "content_html": "<link rel=\"stylesheet\" class=\"aplayer-secondary-style-marker\" href=\"\\assets\\css\\APlayer.min.css\"><script src=\"\\assets\\js\\APlayer.min.js\" class=\"aplayer-secondary-script-marker\"></script><h1 id=\"前言\"><a class=\"anchor\" href=\"#前言\">#</a> 💡前言</h1>\n<p>在開始之前，先介紹一下 Hexo 是什麼，而為什麼使用它。</p>\n<p>此篇文章主要內容有以下部分：</p>\n<ul>\n<li>Hexo 是什麼？</li>\n<li>前置作業</li>\n</ul>\n<h1 id=\"hexo-是什麼\"><a class=\"anchor\" href=\"#hexo-是什麼\">#</a> ❓Hexo 是什麼？</h1>\n<blockquote>\n<p>引用 <a href=\"https://github.com/hexojs/hexo\">官方 Github</a> 的介紹：</p>\n<blockquote>\n<p>A fast, simple &amp; powerful blog framework, powered by <a href=\"https://nodejs.org/en\">Node.js</a>.</p>\n</blockquote>\n</blockquote>\n<p>Hexo 是一個靜態網頁產生工具，也可以說它是 Blog 的一種，相較於動態網頁來說，動態網頁往往需要搭配一個資料庫來運行，以 <strong>Word Press</strong> 來說，<strong>Word Press</strong> 即屬於動態網頁。</p>\n<p>而 Hexo 是基於 Node.js 所製作的網誌框架，擁有以下幾項特點：</p>\n<ul>\n<li>編譯速度很快，幾百篇的文章只需要短短幾秒鐘即可完成\n<ul>\n<li>不過也會受到主題以及外掛套件的關係，速度加減會受到影響😅</li>\n</ul>\n</li>\n<li>外掛套件相當多，而且很豐富</li>\n<li>很多好看的主題，讓讀者與創作者賞心悅目。\n<ul>\n<li>本網誌是用 <a href=\"https://github.com/theme-particlex/hexo-theme-particlex\">ParticleX</a> 的主題，並在外觀上稍微做了一些修正。</li>\n</ul>\n</li>\n<li>支援 <strong>MarkDown</strong> 格式語法撰寫\n<ul>\n<li>對於喜歡用 <strong>MarkDown</strong> 格式語法的人，用 Hexo 來撰寫文章是非常快樂且快速的一件事！</li>\n<li>當然如果想要用  <code>Html</code>  也是可以的，只需要把檔名  <code>.md</code>  改成  <code>.html</code>  即可。</li>\n</ul>\n</li>\n<li>支援一鍵部屬至 <strong>Github Page</strong> 或 <strong>Heroku</strong> 等靜態網頁的空間\n<ul>\n<li>如果是用 <strong>Github</strong> 來當作網誌空間的，基本上就是零成本架設！</li>\n</ul>\n</li>\n<li>中文資源繁多！不怕沒文檔或教學可看！\n<ul>\n<li>其實只要 Google 一下 &lt;u&gt;<strong>Hexo + Github Page 教學</strong> &lt;/u&gt; 或者是 &lt;u&gt;<strong>Hexo 教學</strong> &lt;/u&gt; 就有很多的資源及文章可供參考了。</li>\n</ul>\n</li>\n</ul>\n<h1 id=\"前置作業\"><a class=\"anchor\" href=\"#前置作業\">#</a> 📖 前置作業</h1>\n<h2 id=\"安裝需求\"><a class=\"anchor\" href=\"#安裝需求\">#</a> 安裝需求</h2>\n<div class=\"note warning\">\n</div>\n",
+            "tags": [
+                "Hexo"
+            ]
+        }
+    ]
+}

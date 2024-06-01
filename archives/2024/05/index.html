@@ -1,220 +1,35 @@
-
-<!DOCTYPE html>
-<html lang="zh-tw">
-<head>
-    <meta charset="utf-8" />
-    <title>Archives | Ame 雨の日</title>
-    <meta name="author" content="Ame" />
-    <meta name="description" content="Front-end Developer, Web Designer, UI/UX Designer" />
-    <meta name="keywords" content="前端,後端,全端,網頁,技術,網頁開發,前端開發,後端開發,JavaScript,HTML,CSS,SCSS,Vue,React,Express,mySQL,MongoDB" />
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
-    />
-    <link rel="icon" href="/images/avatar.jpg" />
-    <link rel="preconnect" href="https://s4.zstatic.net" />
-<script src="https://s4.zstatic.net/ajax/libs/vue/3.3.7/vue.global.prod.min.js"></script>
-<link rel="stylesheet" href="https://s4.zstatic.net/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
-<link rel="preconnect" href="https://fonts.googleapis.cn" />
-<link rel="preconnect" href="https://fonts.gstatic.cn" crossorigin />
-<link
-    rel="stylesheet"
-    href="https://fonts.googleapis.cn/css2?family=Fira+Code:wght@400;500;600;700&family=Lexend:wght@400;500;600;700;800;900&family=Noto+Sans+SC:wght@400;500;600;700;800;900&display=swap"
-/>
-<script> const mixins = {}; </script>
-
-<script src="https://polyfill.alicdn.com/v3/polyfill.min.js?features=default"></script>
-
-
-<script src="https://s4.zstatic.net/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
-<script src="https://s4.zstatic.net/ajax/libs/highlightjs-line-numbers.js/2.8.0/highlightjs-line-numbers.min.js"></script>
-<link
-    rel="stylesheet"
-    href="https://s4.zstatic.net/ajax/libs/highlight.js/11.9.0/styles/github.min.css"
-/>
-<script src="/js/lib/highlight.js"></script>
-
-
-
-<script src="/js/lib/preview.js"></script>
-
-
-
-
-
-<link rel="stylesheet" href="/css/main.css" />
-
-<meta name="generator" content="Hexo 7.2.0"></head>
-<body>
-    <div id="layout">
-        <transition name="fade">
-            <div id="loading" v-show="loading">
-                <div id="loading-circle">
-                    <h2>LOADING</h2>
-                    <p>加载过慢请开启缓存 浏览器默认开启</p>
-                    <img src="/images/loading.gif" />
-                </div>
-            </div>
-        </transition>
-        <div id="menu" :class="{ hidden: hiddenMenu, 'menu-color': menuColor}">
-    <nav id="desktop-menu">
-        <a class="title" href="/">
-            <span>AME 雨の日</span>
-        </a>
-        
-        <a href="/">
-            <i class="fa-solid fa-house fa-fw"></i>
-            <span>&ensp;Home</span>
-        </a>
-        
-        <a href="/about">
-            <i class="fa-solid fa-id-card fa-fw"></i>
-            <span>&ensp;About</span>
-        </a>
-        
-        <a href="/archives">
-            <i class="fa-solid fa-box-archive fa-fw"></i>
-            <span>&ensp;Archives</span>
-        </a>
-        
-        <a href="/categories">
-            <i class="fa-solid fa-bookmark fa-fw"></i>
-            <span>&ensp;Categories</span>
-        </a>
-        
-        <a href="/tags">
-            <i class="fa-solid fa-tags fa-fw"></i>
-            <span>&ensp;Tags</span>
-        </a>
-        
-    </nav>
-    <nav id="mobile-menu">
-        <div class="title" @click="showMenuItems = !showMenuItems">
-            <i class="fa-solid fa-bars fa-fw"></i>
-            <span>&emsp;AME 雨の日</span>
-        </div>
-        <transition name="slide">
-            <div class="items" v-show="showMenuItems">
-                
-                <a href="/">
-                    <div class="item">
-                        <div style="min-width: 20px; max-width: 50px; width: 10%">
-                            <i class="fa-solid fa-house fa-fw"></i>
-                        </div>
-                        <div style="min-width: 100px; max-width: 150%; width: 20%">Home</div>
-                    </div>
-                </a>
-                
-                <a href="/about">
-                    <div class="item">
-                        <div style="min-width: 20px; max-width: 50px; width: 10%">
-                            <i class="fa-solid fa-id-card fa-fw"></i>
-                        </div>
-                        <div style="min-width: 100px; max-width: 150%; width: 20%">About</div>
-                    </div>
-                </a>
-                
-                <a href="/archives">
-                    <div class="item">
-                        <div style="min-width: 20px; max-width: 50px; width: 10%">
-                            <i class="fa-solid fa-box-archive fa-fw"></i>
-                        </div>
-                        <div style="min-width: 100px; max-width: 150%; width: 20%">Archives</div>
-                    </div>
-                </a>
-                
-                <a href="/categories">
-                    <div class="item">
-                        <div style="min-width: 20px; max-width: 50px; width: 10%">
-                            <i class="fa-solid fa-bookmark fa-fw"></i>
-                        </div>
-                        <div style="min-width: 100px; max-width: 150%; width: 20%">Categories</div>
-                    </div>
-                </a>
-                
-                <a href="/tags">
-                    <div class="item">
-                        <div style="min-width: 20px; max-width: 50px; width: 10%">
-                            <i class="fa-solid fa-tags fa-fw"></i>
-                        </div>
-                        <div style="min-width: 100px; max-width: 150%; width: 20%">Tags</div>
-                    </div>
-                </a>
-                
-            </div>
-        </transition>
-    </nav>
-</div>
-<transition name="fade">
-    <div id="menu-curtain" @click="showMenuItems = !showMenuItems" v-show="showMenuItems"></div>
-</transition>
-
-        <div id="main" :class="loading ? 'into-enter-from': 'into-enter-active'">
-            
-<div id="archives">
-    
-    <div id="timeline-wrap" ref="timeline">
-        
-        <div class="timeline" data-title="【自學歷程】用hexo架設個人網誌">
-            <div class="timeline-tail"></div>
-            <div class="timeline-content">
-                <div class="item-time">2024/5/25</div>
-                <a href="/2024/05/25/Start/">
-                    <h3>【自學歷程】用 Hexo 架設個人網誌</h3>
-                </a>
-                <div class="info">
-                    
-                    
-                    <span class="tags">
-                        <span class="icon">
-                            <i class="fa-solid fa-tags fa-fw"></i>
-                        </span>
-                        
-                        
-                        <span class="tag">
-                            
-                            <a href="/tags/Hexo/" style="color: #00bcd4">
-                                Hexo
-                            </a>
-                        </span>
-                        
-                    </span>
-                    
-                </div>
-            </div>
-        </div>
-        
-    </div>
-</div>
-
-            <footer id="footer">
-    <div id="footer-wrap">
-        <div>
-            &copy;
-            2022 - 2024 Ame 雨の日
-            <span id="footer-icon">
-                <i class="fa-solid fa-font-awesome fa-fw"></i>
-            </span>
-            &commat;Ame
-        </div>
-        <div>
-            Based on the <a target="_blank" rel="noopener" href="https://hexo.io">Hexo Engine</a> &amp;
-            <a target="_blank" rel="noopener" href="https://github.com/theme-particlex/hexo-theme-particlex">ParticleX Theme</a>
-        </div>
-        
-    </div>
-</footer>
-
-        </div>
-        
-        <transition name="fade">
-            <div id="preview" ref="preview" v-show="previewShow">
-                <img id="preview-content" ref="previewContent" />
-            </div>
-        </transition>
-        
-    </div>
-    <script src="/js/main.js"></script>
-    
-<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"live2d-widget-model-wanko"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":true},"react":{"opacity":0.7}});</script></body>
-</html>
+<!DOCTYPE html><html lang="[&quot;en&quot;,&quot;zh-tw&quot;,&quot;default&quot;]"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=2"><meta name="theme-color" content="#222"><meta http-equiv="X-UA-COMPATIBLE" content="IE=edge,chrome=1"><meta name="renderer" content="webkit"><link rel="icon" type="image/ico" sizes="32x32" href="/assets/favicon.ico"><link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png"><link rel="alternate" href="/rss.xml" title="Ame" type="application/rss+xml"><link rel="alternate" href="/atom.xml" title="Ame" type="application/atom+xml"><link rel="alternate" type="application/json" title="Ame" href="http://example.com/feed.json"><link rel="preconnect" href="https://lf9-cdn-tos.bytecdntp.com"><link rel="preconnect" href="https://at.alicdn.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mulish:400,400italic,700,700italic%7CFredericka%20the%20Great:400,400italic,700,700italic%7CNoto%20Serif%20JP:400,400italic,700,700italic%7CNoto%20Serif%20SC:400,400italic,700,700italic%7CInconsolata:400,400italic,700,700italic&amp;display=swap&amp;subset=latin,latin-ext" media="none" onload="this.media='all'"><link rel="stylesheet" href="/css/app.css?v=0.4.2"><link rel="modulepreload" href="/js/chunk-7UZ4VEME.js"><link rel="modulepreload" href="/js/chunk-N4OFEO4L.js"><link rel="modulepreload" href="/js/chunk-QAWHJ5B3.js"><link rel="modulepreload" href="/js/index.esm-NFR25DXS.js"><link rel="modulepreload" href="/js/post-FTHXWZJU.js"><link rel="modulepreload" href="/js/quicklink-CDXNOTCS.js"><link rel="modulepreload" href="/js/siteInit.js"><link rel="preload" href="https://i.imgur.com/8MWvOtB.jpeg" as="image" fetchpriority="high"><meta name="keywords" content="前端,後端,全端,網頁,技術,網頁開發,前端開發,後端開發,JavaScript,HTML,CSS,SCSS,Vue,React,Express,mySQL,MongoDB"><meta name="description" content="Front-end Developer, Web Designer, UI/UX Designer"><link rel="canonical" href="http://example.com/archives/2024/05/"><title>2024Y/05MArchive</title><meta name="generator" content="Hexo 7.0.0"></head><body itemscope="" itemtype="http://schema.org/WebPage"><div id="loading"><div class="cat"><div class="body"></div><div class="head"><div class="face"></div></div><div class="foot"><div class="tummy-end"></div><div class="bottom"></div><div class="legs left"></div><div class="legs right"></div></div><div class="paw"><div class="hands left"></div><div class="hands right"></div></div></div></div><div id="container"><header id="header" itemscope="" itemtype="http://schema.org/WPHeader"><div class="inner"><div id="brand"><div class="pjax"><h1 itemprop="name headline">Posted on "2024Y05M"</h1></div></div><nav id="nav"><div class="inner"><div class="toggle"><div class="lines" aria-label="Toggle navigation bar"><span class="line"></span><span class="line"></span><span class="line"></span></div></div><ul class="menu"><li class="item title"><a href="/" rel="start">Ame-chan</a></li></ul><ul class="right" id="rightNav"><li class="item theme"><i class="ic i-sun"></i></li><li class="item search"><i class="ic i-search"></i></li></ul></div></nav></div><div class="pjax" id="imgs"><img src="https://i.imgur.com/8MWvOtB.jpeg" loading="eager" decoding="async" fetchpriority="high" alt="Ame"></div></header><div id="waves"><svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto"><defs><path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path></defs><g class="parallax"><use xlink:href="#gentle-wave" x="48" y="0"></use><use xlink:href="#gentle-wave" x="48" y="3"></use><use xlink:href="#gentle-wave" x="48" y="5"></use><use xlink:href="#gentle-wave" x="48" y="7"></use></g></svg></div><main><div class="inner"><div class="pjax" id="main"><div class="collapse wrap"><h2 class="item header"><a href="/archives">All</a><small>/</small><a href="/archives/2024">2024 Y</a><small>/</small>05M<small>Archive</small></h2><article class="item normal" itemscope="" itemtype="http://schema.org/Article"><div class="meta"><time itemprop="dateCreated" datetime="2024-05-25T15:35:33+08:00" content="2024-05-25">05-25</time></div><div class="title"><a href="/2024/05/25/Misc/Hexo/Start/" itemprop="url"><span itemprop="name">【自學歷程】用 Hexo + Github Pages 架設個人網誌</span></a></div></article></div></div><div id="sidebar"><div class="inner"><div class="panels"><div class="inner"><div class="contents panel pjax" data-title="Contents"></div><div class="related panel pjax" data-title="Related"></div><div class="overview panel" data-title="Overview"><div class="author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><img class="image" loading="lazy" decoding="async" itemprop="image" alt="Ame" src="/assets/avatar.webp"><p class="name" itemprop="name">Ame</p><div class="description" itemprop="description">Front-end Developer, Web Designer, UI/UX Designer</div></div><nav class="state"><div class="item posts"><a href="/archives/"><span class="count">4</span><span class="name">posts</span></a></div><div class="item categories"><a href="/categories/"><span class="count">5</span><span class="name">categories</span></a></div><div class="item tags"><a href="/tags/"><span class="count">4</span><span class="name">tags</span></a></div></nav><div class="social"><a target="_blank" rel="noopener" href="https://github.com/LiuWaiting203" class="item github" title="https://github.com/LiuWaiting203"><i class="ic i-github"></i></a><a target="_blank" rel="noopener" href="https://about.me/liuweiting" class="item about" title="https://about.me/liuweiting"><i class="ic i-address-card"></i></a><a href="mailto:pepega147369@gmail.com" class="item email" title="mailto:pepega147369@gmail.com"><i class="ic i-envelope"></i></a><a target="_blank" rel="noopener" href="https://www.facebook.com/LiuWeiThin" class="item facebook" title="https://www.facebook.com/LiuWeiThin"><i class="ic i-facebook"></i></a><a target="_blank" rel="noopener" href="https://www.instagram.com/thinlui1021/" class="item instagram" title="https://www.instagram.com/thinlui1021/"><i class="ic i-instagram"></i></a></div><div class="menu"><li class="item"><a href="/" rel="section"><i class="ic i-home"></i>Home</a></li><li class="item dropdown"><a href="#" onclick="return false;"><i class="ic i-user"></i>About</a><ul class="submenu"><li class="item"><a href="/about/" rel="section"><i class="ic i-user"></i>About This Site</a></li><li class="item"><a href="/admiration/" rel="section"><i class="ic i-coffee"></i>Appreciation</a></li></ul></li><li class="item dropdown"><a href="#" onclick="return false;"><i class="ic i-feather"></i>Posts</a><ul class="submenu"><li class="item"><a href="/archives/" rel="section"><i class="ic i-list-alt"></i>Archives</a></li><li class="item"><a href="/categories/" rel="section"><i class="ic i-th"></i>Categories</a></li><li class="item"><a href="/tags/" rel="section"><i class="ic i-tags"></i>Tags</a></li></ul></li><li class="item"><a href="/friends/" rel="section"><i class="ic i-heart"></i>Friends</a></li></div></div></div></div><ul id="quick"><li class="prev pjax"></li><li class="up"><i class="ic i-arrow-up"></i></li><li class="down"><i class="ic i-arrow-down"></i></li><li class="next pjax"></li><li class="percent"></li></ul></div></div><div class="dimmer"></div></div></main><footer id="footer"><div class="inner"><div class="widgets"><div class="rpost pjax"><h2>Random Posts</h2><ul><li class="item"><div class="breadcrumb"><a href="/categories/misc/" title="In雜談">雜談</a><i class="ic i-angle-right"></i><a href="/categories/misc/Hexo/" title="InHexo">Hexo</a></div><span><a href="/2024/05/25/Misc/Hexo/Start/">【自學歷程】用 Hexo + Github Pages 架設個人網誌</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/life/" title="In生活">生活</a></div><span><a href="/2024/06/02/Life/life/">生活日記</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/back-end/" title="In後端">後端</a></div><span><a href="/2024/06/02/back-end/back-end/">back end</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/front-end/" title="In前端">前端</a></div><span><a href="/2024/06/02/front-end/front-end/">front end</a></span></li></ul></div><div class="rpost pjax"><h2>Recent Comments</h2></div></div><div class="status"><div class="copyright">© 2024 -<span itemprop="copyrightYear">2024</span><span class="with-love"><i class="ic i-sakura rotate"></i></span><span class="author" itemprop="copyrightHolder">Ame @ Ame-chan</span></div><div class="count"><span class="post-meta-item-icon"><i class="ic i-chart-area"></i></span><span title="Symbols count total">1k words</span><span class="post-meta-divider"> | </span><span class="post-meta-item-icon"><i class="ic i-coffee"></i></span><span title="Reading time total">1 mins.</span></div><div class="powered-by">Powered by <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a> &amp; Theme.<a target="_blank" rel="noopener" href="https://github.com/theme-shoka-x/hexo-theme-shokaX/">ShokaX</a></div></div></div></footer></div><script data-config="" type="text/javascript">var LOCAL = {
+    ispost: false,
+        path: `archives/2024/05/`,
+        favicon: {
+        show: `(●´3｀●) Here we go again.`,
+        hide: `(´Д｀) It's a disaster!`
+    },
+    search: {
+        placeholder: "Search for Posts",
+        empty: "We didn't find any results for the search: ${query}",
+        stats: "${hits} results found in ${time} ms"
+    },
+    copy_tex: false,
+    katex: false,
+    mermaid: false,
+    audio: undefined,
+    fancybox: true,
+    nocopy: false,
+    outime: true,
+    template: `<div class="note warning"><p><span class="label warning">Article Timeliness Alert</span><br>This is an article published {{publish}} days ago and last updated {{updated}} days ago. Some information may have changed, so please be careful to screen it.</p></div>`,
+    quiz: {
+        choice: `Multiple Choice`,
+        multiple: `Multiple Answer`,
+        true_false: `True/False`,
+        essay: `Questions`,
+        gap_fill: `Gap Filling`,
+        mistake: `Wrong Answer`
+    },
+    ignores: [
+        (uri) => uri.includes('#'),
+        (uri) => new RegExp(LOCAL.path + '$').test(uri),
+            []
+    ]
+};
+</script><script src="https://lf9-cdn-tos.bytecdntp.com/cdn/expire-6-M/pace/1.2.4/pace.min.js" async=""></script><script src="/js/siteInit.js?v=0.4.2" type="module" fetchpriority="high" defer=""></script><script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"megumin"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":true},"log":false});</script></body></html>

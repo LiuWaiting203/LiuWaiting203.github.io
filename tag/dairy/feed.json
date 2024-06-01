@@ -1,0 +1,18 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Ame • All posts by \"dairy\" tag",
+    "description": "Front-end Developer, Web Designer, UI/UX Designer",
+    "home_page_url": "http://example.com",
+    "items": [
+        {
+            "id": "http://example.com/2024/06/02/Life/life/",
+            "url": "http://example.com/2024/06/02/Life/life/",
+            "title": "生活日記",
+            "date_published": "2024-06-01T17:54:26.000Z",
+            "content_html": "<link rel=\"stylesheet\" class=\"aplayer-secondary-style-marker\" href=\"\\assets\\css\\APlayer.min.css\"><script src=\"\\assets\\js\\APlayer.min.js\" class=\"aplayer-secondary-script-marker\"></script>",
+            "tags": [
+                "Dairy"
+            ]
+        }
+    ]
+}

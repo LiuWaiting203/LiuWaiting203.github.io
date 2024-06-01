@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://example.com</id>
+    <title>Ame</title>
+    <link href="http://example.com" />
+    <updated>2024-06-01T17:54:26.000Z</updated>
+    <category term="Dairy" />
+    <category term="Front-end" />
+    <category term="Back-end" />
+    <category term="Hexo" />
+    <entry>
+        <id>http://example.com/2024/06/02/Life/life/</id>
+        <title>生活日記</title>
+        <link rel="alternate" href="http://example.com/2024/06/02/Life/life/"/>
+        <content type="html">&lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;\assets\css\APlayer.min.css&#34;&gt;&lt;script src=&#34;\assets\js\APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;</content>
+        <category term="Dairy" />
+        <updated>2024-06-01T17:54:26.000Z</updated>
+    </entry>
+    <entry>
+        <id>http://example.com/2024/06/02/back-end/back-end/</id>
+        <title>back end</title>
+        <link rel="alternate" href="http://example.com/2024/06/02/back-end/back-end/"/>
+        <content type="html">&lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;\assets\css\APlayer.min.css&#34;&gt;&lt;script src=&#34;\assets\js\APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;</content>
+        <category term="Back-end" />
+        <updated>2024-06-01T17:40:27.000Z</updated>
+    </entry>
+    <entry>
+        <id>http://example.com/2024/06/02/front-end/front-end/</id>
+        <title>front end</title>
+        <link rel="alternate" href="http://example.com/2024/06/02/front-end/front-end/"/>
+        <content type="html">&lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;\assets\css\APlayer.min.css&#34;&gt;&lt;script src=&#34;\assets\js\APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;</content>
+        <category term="Front-end" />
+        <updated>2024-06-01T17:39:28.000Z</updated>
+    </entry>
+    <entry>
+        <id>http://example.com/2024/05/25/Misc/Hexo/Start/</id>
+        <title>【自學歷程】用 Hexo + Github Pages 架設個人網誌</title>
+        <link rel="alternate" href="http://example.com/2024/05/25/Misc/Hexo/Start/"/>
+        <content type="html">&lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;\assets\css\APlayer.min.css&#34;&gt;&lt;script src=&#34;\assets\js\APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;h1 id=&#34;前言&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#前言&#34;&gt;#&lt;/a&gt; 💡前言&lt;/h1&gt;
+&lt;p&gt;在開始之前，先介紹一下 Hexo 是什麼，而為什麼使用它。&lt;/p&gt;
+&lt;p&gt;此篇文章主要內容有以下部分：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Hexo 是什麼？&lt;/li&gt;
+&lt;li&gt;前置作業&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;hexo-是什麼&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#hexo-是什麼&#34;&gt;#&lt;/a&gt; ❓Hexo 是什麼？&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;引用 &lt;a href=&#34;https://github.com/hexojs/hexo&#34;&gt;官方 Github&lt;/a&gt; 的介紹：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A fast, simple &amp;amp; powerful blog framework, powered by &lt;a href=&#34;https://nodejs.org/en&#34;&gt;Node.js&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Hexo 是一個靜態網頁產生工具，也可以說它是 Blog 的一種，相較於動態網頁來說，動態網頁往往需要搭配一個資料庫來運行，以 &lt;strong&gt;Word Press&lt;/strong&gt; 來說，&lt;strong&gt;Word Press&lt;/strong&gt; 即屬於動態網頁。&lt;/p&gt;
+&lt;p&gt;而 Hexo 是基於 Node.js 所製作的網誌框架，擁有以下幾項特點：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;編譯速度很快，幾百篇的文章只需要短短幾秒鐘即可完成
+&lt;ul&gt;
+&lt;li&gt;不過也會受到主題以及外掛套件的關係，速度加減會受到影響😅&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;外掛套件相當多，而且很豐富&lt;/li&gt;
+&lt;li&gt;很多好看的主題，讓讀者與創作者賞心悅目。
+&lt;ul&gt;
+&lt;li&gt;本網誌是用 &lt;a href=&#34;https://github.com/theme-particlex/hexo-theme-particlex&#34;&gt;ParticleX&lt;/a&gt; 的主題，並在外觀上稍微做了一些修正。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;支援 &lt;strong&gt;MarkDown&lt;/strong&gt; 格式語法撰寫
+&lt;ul&gt;
+&lt;li&gt;對於喜歡用 &lt;strong&gt;MarkDown&lt;/strong&gt; 格式語法的人，用 Hexo 來撰寫文章是非常快樂且快速的一件事！&lt;/li&gt;
+&lt;li&gt;當然如果想要用  &lt;code&gt;Html&lt;/code&gt;  也是可以的，只需要把檔名  &lt;code&gt;.md&lt;/code&gt;  改成  &lt;code&gt;.html&lt;/code&gt;  即可。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;支援一鍵部屬至 &lt;strong&gt;Github Page&lt;/strong&gt; 或 &lt;strong&gt;Heroku&lt;/strong&gt; 等靜態網頁的空間
+&lt;ul&gt;
+&lt;li&gt;如果是用 &lt;strong&gt;Github&lt;/strong&gt; 來當作網誌空間的，基本上就是零成本架設！&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;中文資源繁多！不怕沒文檔或教學可看！
+&lt;ul&gt;
+&lt;li&gt;其實只要 Google 一下 &amp;lt;u&amp;gt;&lt;strong&gt;Hexo + Github Page 教學&lt;/strong&gt; &amp;lt;/u&amp;gt; 或者是 &amp;lt;u&amp;gt;&lt;strong&gt;Hexo 教學&lt;/strong&gt; &amp;lt;/u&amp;gt; 就有很多的資源及文章可供參考了。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;前置作業&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#前置作業&#34;&gt;#&lt;/a&gt; 📖 前置作業&lt;/h1&gt;
+&lt;h2 id=&#34;安裝需求&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#安裝需求&#34;&gt;#&lt;/a&gt; 安裝需求&lt;/h2&gt;
+&lt;div class=&#34;note warning&#34;&gt;
+&lt;/div&gt;
+</content>
+        <category term="Hexo" />
+        <updated>2024-05-25T07:35:33.000Z</updated>
+    </entry>
+</feed>

@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
 <rss version="2.0">
     <channel>
-        <title>Ame • Posts by &#34;front-end&#34; tag</title>
+        <title>Hello, Subarashii Seikai! • Posts by &#34;front-end&#34; tag</title>
         <link>http://example.com</link>
         <description>Front-end Developer, Web Designer, UI/UX Designer</description>
         <language>en,zh-tw,default</language>
         <pubDate>Sun, 02 Jun 2024 01:39:28 +0800</pubDate>
         <lastBuildDate>Sun, 02 Jun 2024 01:39:28 +0800</lastBuildDate>
         <category>Dairy</category>
-        <category>Front-end</category>
         <category>Back-end</category>
+        <category>Front-end</category>
         <category>Hexo</category>
         <item>
             <guid isPermalink="true">http://example.com/2024/06/02/front-end/front-end/</guid>

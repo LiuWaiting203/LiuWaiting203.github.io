@@ -2,11 +2,11 @@
     "version": "https://jsonfeed.org/version/1",
     "title": "Hello, Subarashii Seikai! • All posts by \"front-end\" tag",
     "description": "Front-end Developer, Web Designer, UI/UX Designer",
-    "home_page_url": "http://example.com",
+    "home_page_url": "https://liuwaiting203.github.io",
     "items": [
         {
-            "id": "http://example.com/2024/06/02/front-end/front-end/",
-            "url": "http://example.com/2024/06/02/front-end/front-end/",
+            "id": "https://liuwaiting203.github.io/2024/06/02/front-end/front-end/",
+            "url": "https://liuwaiting203.github.io/2024/06/02/front-end/front-end/",
             "title": "front end",
             "date_published": "2024-06-01T17:39:28.000Z",
             "content_html": "<link rel=\"stylesheet\" class=\"aplayer-secondary-style-marker\" href=\"\\assets\\css\\APlayer.min.css\"><script src=\"\\assets\\js\\APlayer.min.js\" class=\"aplayer-secondary-script-marker\"></script>",

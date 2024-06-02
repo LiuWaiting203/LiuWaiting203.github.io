@@ -2,43 +2,43 @@
 <rss version="2.0">
     <channel>
         <title>Hello, Subarashii Seikai!</title>
-        <link>http://example.com</link>
+        <link>https://liuwaiting203.github.io</link>
         <description>Front-end Developer, Web Designer, UI/UX Designer</description>
-        <language>en,zh-tw,default</language>
+        <language>zh-tw,default</language>
         <pubDate>Sun, 02 Jun 2024 01:54:26 +0800</pubDate>
         <lastBuildDate>Sun, 02 Jun 2024 01:54:26 +0800</lastBuildDate>
         <category>Dairy</category>
-        <category>Back-end</category>
         <category>Front-end</category>
+        <category>Back-end</category>
         <category>Hexo</category>
         <item>
-            <guid isPermalink="true">http://example.com/2024/06/02/Life/life/</guid>
+            <guid isPermalink="true">https://liuwaiting203.github.io/2024/06/02/Life/life/</guid>
             <title>生活日記</title>
-            <link>http://example.com/2024/06/02/Life/life/</link>
+            <link>https://liuwaiting203.github.io/2024/06/02/Life/life/</link>
             <category>Dairy</category>
             <pubDate>Sun, 02 Jun 2024 01:54:26 +0800</pubDate>
             <description><![CDATA[ &lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;\assets\css\APlayer.min.css&#34;&gt;&lt;script src=&#34;\assets\js\APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt; ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2024/06/02/back-end/back-end/</guid>
+            <guid isPermalink="true">https://liuwaiting203.github.io/2024/06/02/back-end/back-end/</guid>
             <title>back end</title>
-            <link>http://example.com/2024/06/02/back-end/back-end/</link>
+            <link>https://liuwaiting203.github.io/2024/06/02/back-end/back-end/</link>
             <category>Back-end</category>
             <pubDate>Sun, 02 Jun 2024 01:40:27 +0800</pubDate>
             <description><![CDATA[ &lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;\assets\css\APlayer.min.css&#34;&gt;&lt;script src=&#34;\assets\js\APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt; ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2024/06/02/front-end/front-end/</guid>
+            <guid isPermalink="true">https://liuwaiting203.github.io/2024/06/02/front-end/front-end/</guid>
             <title>front end</title>
-            <link>http://example.com/2024/06/02/front-end/front-end/</link>
+            <link>https://liuwaiting203.github.io/2024/06/02/front-end/front-end/</link>
             <category>Front-end</category>
             <pubDate>Sun, 02 Jun 2024 01:39:28 +0800</pubDate>
             <description><![CDATA[ &lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;\assets\css\APlayer.min.css&#34;&gt;&lt;script src=&#34;\assets\js\APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt; ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2024/05/25/Misc/Hexo/Start/</guid>
+            <guid isPermalink="true">https://liuwaiting203.github.io/2024/05/25/Misc/Hexo/Start/</guid>
             <title>【自學歷程】用 Hexo + Github Pages 架設個人網誌</title>
-            <link>http://example.com/2024/05/25/Misc/Hexo/Start/</link>
+            <link>https://liuwaiting203.github.io/2024/05/25/Misc/Hexo/Start/</link>
             <category>Hexo</category>
             <pubDate>Sat, 25 May 2024 15:35:33 +0800</pubDate>
             <description><![CDATA[ &lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;\assets\css\APlayer.min.css&#34;&gt;&lt;script src=&#34;\assets\js\APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;div class=&#34;note default&#34;&gt;
@@ -50,6 +50,9 @@
 &lt;ul&gt;
 &lt;li&gt;Hexo 是什麼？&lt;/li&gt;
 &lt;li&gt;前置作業&lt;/li&gt;
+&lt;li&gt;常用指令&lt;/li&gt;
+&lt;li&gt;部屬至 Github&lt;/li&gt;
+&lt;li&gt;總結&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;hexo-是什麼&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#hexo-是什麼&#34;&gt;#&lt;/a&gt; ❓Hexo 是什麼？&lt;/h1&gt;
 &lt;blockquote&gt;
@@ -90,11 +93,180 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;前置作業&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#前置作業&#34;&gt;#&lt;/a&gt; 📖 前置作業&lt;/h1&gt;
-&lt;h2 id=&#34;安裝需求&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#安裝需求&#34;&gt;#&lt;/a&gt; 安裝需求&lt;/h2&gt;
 &lt;div class=&#34;note warning&#34;&gt;
 &lt;p&gt;在開始安裝之前，必須要先建立開發環境...&lt;/p&gt;
 &lt;/div&gt;
-&lt;h1 id=&#34;️小插曲&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#️小插曲&#34;&gt;#&lt;/a&gt; ❤️小插曲&lt;/h1&gt;
+&lt;h2 id=&#34;安裝需求&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#安裝需求&#34;&gt;#&lt;/a&gt; 安裝需求&lt;/h2&gt;
+&lt;p&gt;必須要安裝以下工具：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://nodejs.org/en/&#34;&gt;Node.js&lt;/a&gt; : 提供 npm 來安裝其套。請下載 LTS 版本。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Hexo 建議使用 Node.js 10.0 以上的版本，若不確定下載到哪個版本，在終端機輸入  &lt;code&gt;node -v&lt;/code&gt;  檢查版本號。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://git-scm.com/&#34;&gt;Git&lt;/a&gt; : 將檔案發佈到 Github Pages 上，也可使用 &lt;a href=&#34;https://desktop.github.com/&#34;&gt;Github Desktop&lt;/a&gt; 來進行發布。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Git 的基礎語法大致如下：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;git clone&lt;/code&gt;  : 將遠端儲存庫複製下載到本機上。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git push -u (origin) (master)&lt;/code&gt;  : 發佈至遠端並推送。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;hexo-環境設置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#hexo-環境設置&#34;&gt;#&lt;/a&gt; Hexo 環境設置&lt;/h2&gt;
+&lt;p&gt;完成前置作業後，緊接著要建立 Hexo 的環境，其步驟如下：&lt;/p&gt;
+&lt;h3 id=&#34;step-1-安裝-hexo&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#step-1-安裝-hexo&#34;&gt;#&lt;/a&gt; Step 1 : 安裝 Hexo&lt;/h3&gt;
+&lt;p&gt;開啟 CLI 介面（例如 cmd、git-bash、PowerShell ... 等終端機），並輸入以下指令來安裝 Hexo：&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;npm&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;install&lt;/span&gt; hexo-cli &lt;span class=&#34;token parameter variable&#34;&gt;-g&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;安裝後，可以利用  &lt;code&gt;hexo -v&lt;/code&gt;  檢查是否安裝成功，並檢查 Hexo 目前版本號。&lt;/p&gt;
+&lt;h3 id=&#34;step-2-初始化-hexo&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#step-2-初始化-hexo&#34;&gt;#&lt;/a&gt; Step 2 : 初始化 Hexo&lt;/h3&gt;
+&lt;p&gt;再接著，要初始化 Hexo，可以用兩種做法：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;直接輸入指令，會自動於所在目錄裡建立一個新資料夾來操作 Hexo。記得要將括號內的名稱修改成資料夾的名稱，若不指定則會直接初始化當前目錄。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;hexo init &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;資料夾名稱&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;也可先建立好資料夾，使用終端機指令切換資料夾目錄，之後再進行初始化。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token builtin class-name&#34;&gt;cd&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;資料夾名稱 or 資料夾路徑&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;step-3-在資料夾內安裝所需檔案&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#step-3-在資料夾內安裝所需檔案&#34;&gt;#&lt;/a&gt; Step 3 : 在資料夾內安裝所需檔案&lt;/h3&gt;
+&lt;p&gt;確認 CLI 上的路徑是在目前資料夾中，確認完畢後執行以下指令，安裝所需 npm 套件：&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;npm&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;install&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;安裝完成後，會看見目錄裡出現以下檔案及資料夾：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;.
+├── _config.yml
+├── package.json
+├── scaffolds
+├── source
+|   ├── _drafts
+|   └── _posts
+└── themes
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;_configyml&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#_configyml&#34;&gt;#&lt;/a&gt; _config.yml&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;有關網站配置的設定檔案，可修改各式各樣的設定，例如：網站標題、網站網址、使用主題等等...&lt;/li&gt;
+&lt;li&gt;更多內容請查詢&lt;a href=&#34;https://hexo.io/zh-tw/docs/configuration&#34;&gt;官方文檔&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;packagejson&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#packagejson&#34;&gt;#&lt;/a&gt; package.json&lt;/h4&gt;
+&lt;p&gt;記錄所有應用程式的資料，其專案裡所有的模組&lt;/p&gt;
+&lt;h4 id=&#34;scaffolds-模板&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#scaffolds-模板&#34;&gt;#&lt;/a&gt; scaffolds 模板&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;當建立新文章時，Hexo 會根據 scaffolds 中的模板建立相對應的檔案&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;themes-主題&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#themes-主題&#34;&gt;#&lt;/a&gt; themes 主題&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;用來存放主題的資料夾&lt;/li&gt;
+&lt;li&gt;Hexo 會根據主題來解析 source 資料夾中的檔案並產成靜態頁面，預設主題為 &lt;a href=&#34;https://github.com/hexojs/hexo-theme-landscape&#34;&gt;landscape&lt;/a&gt;，順帶一提本人目前是使用 &lt;a href=&#34;https://github.com/theme-shoka-x/hexo-theme-shokaX&#34;&gt;ShokaX&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;source-資源&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#source-資源&#34;&gt;#&lt;/a&gt; source 資源&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;存放原始檔，例如  &lt;code&gt;.md&lt;/code&gt;  檔、圖片、各類頁面（關於我、分類、標籤等...）&lt;/li&gt;
+&lt;li&gt;通常資料夾命名會加上  &lt;code&gt;_&lt;/code&gt;  底線，例如： &lt;code&gt;_imgs&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;以  &lt;code&gt;_&lt;/code&gt;  開頭的檔案、資料夾會被忽略，除了  &lt;code&gt;_posts&lt;/code&gt;  外&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;.md&lt;/code&gt;  及  &lt;code&gt;.html&lt;/code&gt;  會被解析，並存儲在  &lt;code&gt;public&lt;/code&gt;  內，而其他檔案會被拷貝過去&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;source-public-deploy_git-的差別&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#source-public-deploy_git-的差別&#34;&gt;#&lt;/a&gt; source &amp;amp; public &amp;amp; .deploy_git 的差別&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;執行  &lt;code&gt;$ hexo generate&lt;/code&gt;  後，將  &lt;code&gt;source&lt;/code&gt;  資料夾內的  &lt;code&gt;.md&lt;/code&gt;  和  &lt;code&gt;.html&lt;/code&gt;  進行解析，再配合主題進行渲染，生成靜態網站&lt;/li&gt;
+&lt;li&gt;執行  &lt;code&gt;$ hexo deploy&lt;/code&gt;  後，則會將  &lt;code&gt;public&lt;/code&gt;  內的資料夾部屬到 Github 上，並生成  &lt;code&gt;.deploy_git&lt;/code&gt;  資料夾，內容與  &lt;code&gt;public&lt;/code&gt;  幾乎相同&lt;/li&gt;
+&lt;li&gt;大致上是這樣的排序：  &lt;code&gt;source &amp;gt; public &amp;gt; .deploy_git&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;常用指令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#常用指令&#34;&gt;#&lt;/a&gt; 🔧常用指令&lt;/h1&gt;
+&lt;p&gt;在 Hexo 中，時常會用到以下指令，更多詳細指令請參考&lt;a href=&#34;https://hexo.io/zh-tw/docs/commands&#34;&gt;官方文檔&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;new-新增文章&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#new-新增文章&#34;&gt;#&lt;/a&gt; new 新增文章&lt;/h2&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;hexo new &lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;layout&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;title&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ul&gt;
+&lt;li&gt;若沒有設定 layout，則會使用  &lt;code&gt;_config.yml&lt;/code&gt;  中的 default_layout 來設定&lt;/li&gt;
+&lt;li&gt;若標題中含有空格，需使用括號保住，例如  &lt;code&gt;&amp;quot;title&amp;quot;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;檔案名稱盡量使用英文命名，避免出現亂碼&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;執行完成後，會在  &lt;code&gt;/source/_posts/&lt;/code&gt;  中出現  &lt;code&gt;.md&lt;/code&gt;  檔，即可在  &lt;code&gt;.md&lt;/code&gt;  內進行編輯文案&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;若對 MarkDown 語法不熟則可參考此筆記 : &lt;a href=&#34;https://ed521.github.io/2019/08/hexo-markdown/&#34;&gt;MarkDown 格式&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;clean-清除靜態檔案與快取&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#clean-清除靜態檔案與快取&#34;&gt;#&lt;/a&gt; clean 清除靜態檔案與快取&lt;/h2&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;hexo clean&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;可簡寫成  &lt;code&gt;hexo cl&lt;/code&gt; &lt;br /&gt;
+ 在每次儲存檔案前，建議先輸入此指令，清除快取檔案 -  &lt;code&gt;db.json&lt;/code&gt;  和已產生的靜態檔 -  &lt;code&gt;public&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;generate-產生靜態檔案&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#generate-產生靜態檔案&#34;&gt;#&lt;/a&gt; generate 產生靜態檔案&lt;/h2&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;hexo generate&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;可簡寫成  &lt;code&gt;hexo g&lt;/code&gt;  生成靜態檔案&lt;/p&gt;
+&lt;h2 id=&#34;server-啟動本地伺服器&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#server-啟動本地伺服器&#34;&gt;#&lt;/a&gt; server 啟動本地伺服器&lt;/h2&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;hexo server&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;可簡寫成  &lt;code&gt;hexo s&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;在本地上啟用 Hexo 伺服器，預設 IP 為 :  &lt;code&gt;https://localhost:4000/&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;可在本機上預覽設定結果，按 &lt;ins&gt;Ctrl + C&lt;/ins&gt; 即可關閉伺服器&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;localhost&lt;/strong&gt; : 只能從本地瀏覽此網站，不可外部瀏覽&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;deploy-部屬網站&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#deploy-部屬網站&#34;&gt;#&lt;/a&gt; deploy 部屬網站&lt;/h2&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;hexo deploy&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;可簡寫成  &lt;code&gt;hexo d&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;在進行部屬前要先產生靜態檔案，使用  &lt;code&gt;hexo generate&lt;/code&gt;  或  &lt;code&gt;hexo g&lt;/code&gt;  來產生靜態檔&lt;/li&gt;
+&lt;li&gt;也可以使用  &lt;code&gt;hexo g -d&lt;/code&gt;  來進行部屬時產生靜態檔&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;部屬至-github&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#部屬至-github&#34;&gt;#&lt;/a&gt; 🧠部屬至 Github&lt;/h1&gt;
+&lt;h2 id=&#34;建立-github-專案&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#建立-github-專案&#34;&gt;#&lt;/a&gt; 建立 Github 專案&lt;/h2&gt;
+&lt;p&gt;在架設網站前，必須準備一個存放網站的空間，自行架設主機、選擇現有平台等... 例如：&lt;ins&gt;Github Pages&lt;/ins&gt; 或 &lt;ins&gt;Heroku&lt;/ins&gt; 等，本人以 Github 作為示範&lt;/p&gt;
+&lt;p&gt;依照下列步驟即可在 Github 新增專案&lt;/p&gt;
+&lt;h3 id=&#34;step-1-註冊-github&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#step-1-註冊-github&#34;&gt;#&lt;/a&gt; Step 1 : 註冊 Github&lt;/h3&gt;
+&lt;p&gt;首先我們必須註冊一個 &lt;a href=&#34;https://github.com/&#34;&gt;Github&lt;/a&gt; 帳號才能新增專案，並將往後的檔案發佈至專案上進行更新&lt;/p&gt;
+&lt;h3 id=&#34;step-2-新增-repository-專案&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#step-2-新增-repository-專案&#34;&gt;#&lt;/a&gt; Step 2 : 新增 Repository (專案)&lt;/h3&gt;
+&lt;p&gt;點選 &lt;ins&gt;New&lt;/ins&gt; 新增一個 Repo (專案)&lt;br /&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;https://i.imgur.com/EXTRUdq.png&#34; alt=&#34;new repo&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;step-3-命名-repository-專案-名稱&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#step-3-命名-repository-專案-名稱&#34;&gt;#&lt;/a&gt; Step 3 : 命名 Repository (專案) 名稱&lt;/h3&gt;
+&lt;p&gt;將專案名稱命名為  &lt;code&gt;username.github.io&lt;/code&gt; ， &lt;code&gt;username&lt;/code&gt;  要改成自己帳號的名稱&lt;br /&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;https://i.imgur.com/lCL8epT.png&#34; alt=&#34;repo name&#34; /&gt;&lt;br /&gt;
+ 完成後就成功建立一個新網域：  &lt;code&gt;username.github.io&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;發佈至-github-上&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#發佈至-github-上&#34;&gt;#&lt;/a&gt; 發佈至 Github 上&lt;/h2&gt;
+&lt;h3 id=&#34;step-1-安裝-hexo-git-套件&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#step-1-安裝-hexo-git-套件&#34;&gt;#&lt;/a&gt; Step 1 : 安裝 Hexo-Git 套件&lt;/h3&gt;
+&lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;Hexo 本身無預載一鍵部屬的功能，因此我們必須先安裝相關套件&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;開啟終端機，並輸入以下指令安裝部屬用的套件：&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;npm&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;install&lt;/span&gt; hexo-deployer-git &lt;span class=&#34;token parameter variable&#34;&gt;--save&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;step-2-修改-_configyml-的-deployment-設定&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#step-2-修改-_configyml-的-deployment-設定&#34;&gt;#&lt;/a&gt; Step 2 : 修改  &lt;code&gt;_config.yml&lt;/code&gt;  的 &lt;ins&gt;Deployment&lt;/ins&gt; 設定&lt;/h3&gt;
+&lt;p&gt;安裝完畢後，開啟 Hexo 根目錄下的  &lt;code&gt;_config.yml&lt;/code&gt;  增加 deploy 的設定&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;這裡的  &lt;code&gt;_config.yml&lt;/code&gt;  是位於  &lt;code&gt;hexo/_config.yml&lt;/code&gt;  內，並非主題內的  &lt;code&gt;themes/_config.yml&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;在尾端加入以下程式碼：&lt;/p&gt;
+&lt;figure class=&#34;highlight yml&#34;&gt;&lt;figcaption data-lang=&#34;YAML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# Deployment&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;## Docs: https://hexo.io/docs/one-command-deployment&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;deploy&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; git&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;repo&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; https&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;//github.com/username/username.github.io.git &lt;span class=&#34;token comment&#34;&gt;# 將內文中的 username 改成你帳戶的名稱&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;branch&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; master &lt;span class=&#34;token comment&#34;&gt;# 或者是 main&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ul&gt;
+&lt;li&gt;type : 選擇部屬模式，這裡選填 git&lt;/li&gt;
+&lt;li&gt;repo : Github Repository 的連結，請記住：將  &lt;code&gt;username&lt;/code&gt;  /  &lt;code&gt;username.github.io&lt;/code&gt;  中的  &lt;code&gt;username&lt;/code&gt;  改成你 Github 上帳戶名稱&lt;/li&gt;
+&lt;li&gt;branch : 選擇分支，預設為  &lt;code&gt;master&lt;/code&gt;  (或  &lt;code&gt;main&lt;/code&gt; )&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;step-3-輸入部屬指令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#step-3-輸入部屬指令&#34;&gt;#&lt;/a&gt; Step 3 : 輸入部屬指令&lt;/h3&gt;
+&lt;p&gt;輸入指令進行部屬檔案至網站上，請依序輸入  &lt;code&gt;clean &amp;gt; generate &amp;gt; deploy&lt;/code&gt;  這三行指令，避免更新不完全&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;hexo cl &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;hexo g&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;hexo d&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;blockquote&gt;
+&lt;p&gt;也可先進行  &lt;code&gt;hexo clean&lt;/code&gt;  後再用  &lt;code&gt;hexo g -d&lt;/code&gt;  進行產生靜態網站並部屬&lt;br /&gt;
+使用部屬指令時第一次可能會要求登入 Github 帳號&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;這樣就能部屬你的 Hexo 網站到 Github 上了！可以在  &lt;code&gt;https://username.github.io&lt;/code&gt;  確認是否發佈成功，若成功的話畫面如下：&lt;br /&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;https://i.imgur.com/qTk5RrV.jpeg&#34; alt=&#34;github page&#34; /&gt;&lt;/p&gt;
+&lt;h1 id=&#34;總結&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#總結&#34;&gt;#&lt;/a&gt; ☕總結&lt;/h1&gt;
+&lt;p&gt;我之所以會想用 Hexo 的原因是因為現成的部落格網站很難進行高度客製化，而且自己的文章、SEO 及版面等，其實都掌握在那些部落格平台上，雖然也是可以使用前述的部落格平台，但主機、網域及 SEO 等其實都是那些平台掌控的。&lt;br /&gt;
+其實以目前來講，截止  &lt;code&gt;2024/05/30&lt;/code&gt;  為止，已經有不少以 Hexo 為原點出發的部落格網站，例如：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://vitepress.dev/&#34;&gt;VitePress&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://vuepress.vuejs.org/zh/&#34;&gt;VuePress&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://nextjs.org/&#34;&gt;Next.js&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;現今當紅炸子雞：&lt;a href=&#34;https://astro.build/&#34;&gt;Astro&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;但為何我終究選擇了 Hexo？有以下原因：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;教學多多，不怕看不懂或不會操作&lt;/li&gt;
+&lt;li&gt;個人屬於輕度使用者，只有在記錄一些自學歷程或筆記時才會撰寫文案&lt;/li&gt;
+&lt;li&gt;資源繁多，各式各樣極方便的套件很多都能查詢得到&lt;/li&gt;
+&lt;li&gt;主題很豐富，每個主題都十分有趣或優美&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;即便好處多多，但壞處也有嗎？是的，也有&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;必須找存儲空間放置網站&lt;/li&gt;
+&lt;li&gt;學習各種指令操作&lt;/li&gt;
+&lt;li&gt;購買網域&lt;/li&gt;
+&lt;li&gt;SEO 要自己想辦法&lt;/li&gt;
+&lt;li&gt;主題要慎選（因為有些可能已經過期，或不符合現有的 Hexo 版本等...）&lt;/li&gt;
+&lt;li&gt;以現今網頁開發來講過於過時，Hexo 於 2013 年亮相，那時候 Facebook 才剛宣布 React 框架，所以 Hexo 目前還是依賴  &lt;code&gt;Html&lt;/code&gt; ,  &lt;code&gt;Css&lt;/code&gt;  及  &lt;code&gt;JavaScript&lt;/code&gt;  為主&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;不過就算如此，我依然會選擇 Hexo 作為我的部落格首選之一，本人也很推薦初學者剛學自架部落格框架可以先以 Hexo 為主，之後在依照自己的要求遷移至其他框架也可。&lt;/p&gt;
+&lt;h1 id=&#34;️謝謝觀看&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#️謝謝觀看&#34;&gt;#&lt;/a&gt; ❤️謝謝觀看&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;黑甚於黑，暗之漆黑，渴求融合我之真紅吧！覺醒之時已然來臨，真理墜入無繆境界，化為無形扭曲，顯現吧！舞動吧，舞動吧，舞動吧！渴求我魔力狂潮的崩壞之力，無可比擬的崩壞之力，萬象化為灰塵，自深淵奔流而出，這正是人類威力最強攻擊手段，這就是終極的攻擊魔法，Explosion！&lt;/p&gt;
 &lt;/blockquote&gt;

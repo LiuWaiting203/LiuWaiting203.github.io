@@ -1,8 +1,8 @@
-https://liuwaiting203.github.io/Misc/Hexo/Start/20240525/
+https://liuwaiting203.github.io/2024/05/25/Misc/Hexo/Start/
 https://liuwaiting203.github.io/about/index.html
-https://liuwaiting203.github.io/Life/life/20240602/
-https://liuwaiting203.github.io/front-end/front-end/20240602/
-https://liuwaiting203.github.io/back-end/back-end/20240602/
+https://liuwaiting203.github.io/2024/06/02/Life/life/
+https://liuwaiting203.github.io/2024/06/02/front-end/front-end/
+https://liuwaiting203.github.io/2024/06/02/back-end/back-end/
 https://liuwaiting203.github.io/live2d_models/megumin/Character.physics3.json
 https://liuwaiting203.github.io/live2d_models/megumin/Character.model3.json
 https://liuwaiting203.github.io/live2d_models/megumin/motions/00_Anger_01.motion3.json

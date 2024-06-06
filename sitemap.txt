@@ -1,8 +1,8 @@
-https://liuwaiting203.github.io/Misc/Hexo/Start/20240525/clx3hjrom001jfsvbe84eekka
+https://liuwaiting203.github.io/Misc/Hexo/Start/20240525/
 https://liuwaiting203.github.io/about/index.html
-https://liuwaiting203.github.io/Life/life/20240602/clx3hjro30004fsvb7ittf7q4
-https://liuwaiting203.github.io/front-end/front-end/20240602/clx3hjro50006fsvb5aca2a01
-https://liuwaiting203.github.io/back-end/back-end/20240602/clx3hjro70009fsvbd8zzcyh5
+https://liuwaiting203.github.io/Life/life/20240602/
+https://liuwaiting203.github.io/front-end/front-end/20240602/
+https://liuwaiting203.github.io/back-end/back-end/20240602/
 https://liuwaiting203.github.io/live2d_models/megumin/Character.physics3.json
 https://liuwaiting203.github.io/live2d_models/megumin/Character.model3.json
 https://liuwaiting203.github.io/live2d_models/megumin/motions/00_Anger_01.motion3.json
